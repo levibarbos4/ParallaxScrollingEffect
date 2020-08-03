@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777777;
+    height: 100%;
+}
+
+.conteudo {
+    color: #777777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111111;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* efeito parallax */
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+    position: relative;
+    height: 100%;
+    /* opacity: 0.7; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    background-image: url(../img/long-forest-path.jpg);
+}
+
+.caixa2 {
+    background-image: url(../img/golden-autumn-leaves.jpg);
+}
+
+.caixa3 {
+    background-image: url(../img/forest-leaves-changing-in-fall.jpg);
+}
+
+.caixa4 {
+    background-image: url(../img/fall-leaves-changing.jpg);
+}
+
+.caixa5 {
+    background-image: url(../img/fall-leaves-in-fallen-tree.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.conteudo-titulo span.titulo {
+    color: #ffffff;
+    background-color: #111111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
